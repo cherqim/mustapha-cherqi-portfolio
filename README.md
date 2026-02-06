@@ -1,57 +1,53 @@
 # Mustapha Cherqi — Portfolio
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-cherqi.me-cyan)](https://cherqi.me)
-[![GitHub](https://img.shields.io/badge/GitHub-cherqim-black)](https://github.com/cherqim)
+[![Live Site](https://img.shields.io/badge/Live%20Site-cherqi.me-00e5cc)](https://cherqi.me)
+[![GitHub](https://img.shields.io/badge/GitHub-cherqim-0c0c0c)](https://github.com/cherqim)
 
-Personal portfolio website showcasing full-stack development work.
+Personal portfolio for **Mustapha Cherqi**, full-stack developer. Showcases projects, stack, and contact.
 
-## Live Demo
+## Live
 
-🌐 **https://cherqi.me**
+**https://cherqi.me**
 
 ## Stack
 
-- Pure HTML/CSS/JS (no frameworks)
-- Custom CSS animations & effects
-- Responsive design
-- Dark theme with cyan accents
+- Single HTML file (no build step)
+- Vanilla CSS with custom properties
+- Vanilla JS (scroll progress, reveal animations, mobile nav)
+- Fonts: [Syne](https://fonts.google.com/specimen/Syne) (display), [DM Sans](https://fonts.google.com/specimen/DM+Sans) (body)
 
 ## Features
 
-- Animated background grid with floating orbs
-- Scroll-triggered fade animations
-- Interactive project cards
-- Technical skills showcase
-- Contact links
+- **Hero** — Name-first layout, availability badge, terminal-style line, key stats
+- **Scroll progress** — Top bar reflects page scroll
+- **Reveal on scroll** — Sections and cards animate into view
+- **Responsive** — Mobile menu, stacked layouts, touch-friendly
+- **Accessibility** — Focus states, `aria` on menu toggle, reduced-motion respected
+- **Dark theme** — Deep background with teal/cyan accent
 
-## Projects Featured
+## Sections
 
-- **Morokeys Backoffice** — SaaS admin dashboard with multi-tenant architecture
-- **AR Services Foundation** — Professional foundation website
-- **RentalApp V2** — Cross-platform mobile rental management app
+- **About** — Identity, location, three “roles” (Developer, Architect, Seeker)
+- **Projects** — Morokeys Backoffice, AR Services Foundation, RentalApp V2
+- **Skills** — Frontend, Mobile, Backend, Auth & Payments, Data & State, Design & SEO
+- **Contact** — Email, GitHub, Telegram
 
-## Local Development
+## Local
 
 ```bash
-# Clone the repo
 git clone https://github.com/cherqim/mustapha-cherqi-portfolio.git
 cd mustapha-cherqi-portfolio
 
-# Serve locally (Python)
+# Serve
 python3 -m http.server 8000
-
-# Or with Node
+# or
 npx serve .
 ```
 
-## Deployment
+## Deploy
 
-Deployed via Caddy on a VPS with SSL certificates.
-
-## License
-
-MIT — feel free to use as inspiration, but don't copy outright.
+Static site; works with any host (Vercel, Netlify, Caddy on VPS, etc.).
 
 ---
 
-Built with ⚡ by Mustapha Cherqi
+Built by Mustapha Cherqi.
